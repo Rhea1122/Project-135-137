@@ -1,0 +1,49 @@
+<html>
+<head>
+    
+	<title>Project 135-137</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    </head>
+  
+  <body class="body">
+    <center>
+      <h1 class="h1">AI Object Identification</h1>
+      <br>
+      <br>
+      <h2 class="heading">Note : To use this website, show an image of any object/s and enter the name of the object/s which are being shown.</h2>
+      <br>
+      <br>
+      <input id="name" type="text"  hint="Enter name of object here" style="font-weight: bold;">
+      <br>
+      <br>
+      <button class="btn" onclick="start()">Start Detection</button>
+      <br>
+      <br>
+      <label class="btn btn-danger" id="status_detection"></label>
+      <br>
+      <br>
+      <label class="btn btn-success" id="status_detected"></label>
+      
+    </center> 
+  
+    <script src="main.js"></script>
+  
+  </body>
+  </html>
+
+
+

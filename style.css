@@ -1,0 +1,20 @@
+canvas
+{
+    margin-top: 500px;
+    border: 2px solid;
+    border-color:#C4A8FF;
+    border-style: groove;
+    box-shadow: 2px 2px 20px rebeccapurple;
+}
+.body
+{
+    background-color: #000000;
+    color:#645957;
+    font-family: 'Gideon Roman', cursive;
+}
+.h1
+{
+    background-color: #7A1F1E;
+    color: #F7CBB2;
+    width: 50%;
+}
